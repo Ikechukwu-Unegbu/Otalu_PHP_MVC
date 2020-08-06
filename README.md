@@ -8,4 +8,7 @@ This repo is not just the framework but also contact management app built on top
 Perusing through the the app part will give anyone intending to use the framework a practical insight into the functions
 at his disposal...
 
+The name: the name of the project is inspired by a River Deity in a town in Anambra State. The deity is know to have Python as its 
+messenger.
+
 - IK
