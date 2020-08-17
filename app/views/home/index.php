@@ -1,6 +1,6 @@
 
 <?php $this->start('body'); ?>
-<h1 class="text-center red">Welcome to Ruah MVC Framework!</h1>
+<h1 class="text-center red">Welcome to Otalu MVC Framework!</h1>
 <div onclick="ajaxTest();">Click me!!!</div>
 
 <script>

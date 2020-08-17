@@ -2,7 +2,7 @@
 namespace Core;
 
   class View {
-    protected $_head, $_body,  $_siteTitle = SITE_TITLE, $_outputBuffer, $_layout = DEFAULT_LAYOUT;
+    protected $_head, $_body, $_footer,  $_siteTitle = SITE_TITLE, $_outputBuffer, $_layout = DEFAULT_LAYOUT;
 
     public function __construct() {
 
@@ -16,6 +16,7 @@ namespace Core;
         include(ROOT . DS . 'app' . DS . 'views' . DS . 'layouts' . DS . $this->_layout . '.php');
       } else {
         die('The view \"' . $viewName . '\" does not exist.');
+        //require_once('../app/error');
       }
     }
 
@@ -24,6 +25,8 @@ namespace Core;
         return $this->_head;
       } elseif($type == 'body') {
         return $this->_body;
+      }elseif($type == 'footer'){
+        return $this->_footer;
       }
       return false;
     }
