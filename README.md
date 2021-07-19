@@ -15,7 +15,8 @@ as such it is currently not optimized to solve any particular problem.
 
 # UPCOMING EXTENSIONS
 1. Improved Router that can navigate multiple sub directoris
-2. API support resources
+2. API support resources 
+2.2. Robust Middleware
 3. Composer Support
 4. Including search capability in the query builder
 5. Multi table query builder
