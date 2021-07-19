@@ -11,4 +11,12 @@ at his disposal...
 The name: the name of the project is inspired by a River Deity in a town in Anambra State. The deity is know to have Python as its 
 messenger.
 
+Coming extensions will include
+
+1. Improved Router capable of navigating multiple sub directories 
+2. Adding "LIKE" for search to the query builder methods
+3. Multi table query builder
+4. Composer Support
+5. API resources
+
 - IK
