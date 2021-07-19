@@ -13,7 +13,7 @@ messenger.
 NB: This framework came out of months of trying to understand the MVC design pattern using the PHP language,
 as such it is currently not optimized to solve any particular problem. 
 
-#UPCOMING EXTENSIONS
+# UPCOMING EXTENSIONS
 1. Improved Router that can navigate multiple sub directoris
 2. API support resources
 3. Composer Support
