@@ -18,5 +18,6 @@ Coming extensions will include
 3. Multi table query builder
 4. Composer Support
 5. API resources
+6. First comprehensive documentation
 
 - IK
